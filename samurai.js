@@ -9,7 +9,7 @@ for (var i = 1; i <= 100; i++) {
 
 function lastSamurai(numSamurai) {
 
-  var samurai = Array.from(new Array(numSamurai).keys(), x => x + 1);
+  var samurai = Array.from(new Array(numSamurai).keys(), x => 'Samurai ' + (x + 1));
 
   var killer = 0;
   while(samurai.length > 1) {
